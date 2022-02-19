@@ -1,0 +1,77 @@
+/*apply to whole index*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* color properties */
+:root {
+    --blue: #0C1559;
+    --green: #2bc20e;;
+  }
+
+/* header/nav properties */
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0px 20px;
+    margin: 0px;
+  }
+
+nav h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+nav a {
+    font-size: 18px;
+    font-weight: normal;
+}
+.viewHighScores {
+    color: var(--green);
+    text-decoration: none;
+}
+
+/* h1 */
+h1 {
+    font-size: 30px;
+}
+
+/* button properties */
+button { /*not hovered*/
+    background-color: var(--blue);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 50px;
+  }
+
+  button:hover { /*hovered*/
+    background-color: var(--green);
+  }
+
+  /*high score page*/
+  button a { 
+    color: white;
+    text-decoration: none;
+  }
+  #highScores {
+    margin: auto;
+    width: 60%;
+    padding: 100px;
+    text-align: center;
+  }
+
+  /* intro section */
+  #intro {
+        margin: auto;
+        width: 60%;
+        padding: 100px;
+        text-align: center;
+      }
+
+/* navy blue: #0C1559 , neon green: #2bc20e
+
