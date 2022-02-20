@@ -1,11 +1,6 @@
+//variables defined
 var timerEl = document.querySelector('.timer');
 var startQuiz = document.querySelector('.start');
-
-//start button function
-function startQuiz () {
-    start.addEventListener("click");
-    console.log(start);
-}
 
 
 //timer function
@@ -34,7 +29,17 @@ function timer (){
         }
       }, 1000);
 }
-timer();
+
+//if 'start quiz' button is clicked then the timer starts
+document.addEventListener("click", startQuiz);
+
+function start() {
+    if(startQuiz === "click") {
+        timer();
+    }
+
+ }
+ start();
 
 
 //if start quiz button is clicked, then hide coding quiz challenge & show the first question
