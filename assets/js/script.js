@@ -3,47 +3,47 @@ var timerEl = document.querySelector('.timer');
 var startQuiz = document.querySelector('.start');
 
 
-//timer function
+//when I click the “start quiz” a timer starts
 startQuiz.addEventListener("click", function () {
   var timeLeft = 75;
   setInterval(function () {
     timeLeft--;
     timerEl.textContent = timeLeft;
-      if (timeLeft >= 0) {
-        span = document.getElementById("time");
-        span.innerHTML - timeLeft;
-      }
-      if (timeLeft === 0) {
-        clearInterval();
-      }
-    }, 1000);
-  });
-
-  //setInterval method to call function to be executed every 1000 miliseconds
-  var timeInterval = setInterval (function () {
-    // As long as the `timeLeft` is greater than 1
-    if (timeLeft > 1) {
-      // Set the `textContent` of `timerEl` to show the remaining seconds
-      timerEl.textContent = timeLeft;
-      // Decrement `timeLeft` by 1
-      timeLeft--;
-    } else if (timeLeft === 1) {
-      // When `timeLeft` is equal to 1, rename to 'second' instead of 'seconds'
-      timerEl.textContent = timeLeft;
-      timeLeft--;
-    } else {
-      // Once `timeLeft` gets to 0, set `timerEl` to an empty string
-      timerEl.textContent = '';
-      // Use `clearInterval()` to stop the timer
-      clearInterval(timeInterval);
-      // Call the `displayMessage()` function
-      displayMessage();
+    if (timeLeft >= 0) {
+      span = document.getElementById("time");
+      span.innerHTML - timeLeft;
+    }
+    if (timeLeft === 0) {
+      clearInterval();
     }
   }, 1000);
+});
+
+//setInterval method to call function to be executed every 1000 miliseconds
+var timeInterval = setInterval(function () {
+  // As long as the `timeLeft` is greater than 1
+  if (timeLeft > 1) {
+    // Set the `textContent` of `timerEl` to show the remaining seconds
+    timerEl.textContent = timeLeft;
+    // Decrement `timeLeft` by 1
+    timeLeft--;
+  } else if (timeLeft === 1) {
+    // When `timeLeft` is equal to 1, rename to 'second' instead of 'seconds'
+    timerEl.textContent = timeLeft;
+    timeLeft--;
+  } else {
+    // Once `timeLeft` gets to 0, set `timerEl` to an empty string
+    timerEl.textContent = '';
+    // Use `clearInterval()` to stop the timer
+    clearInterval(timeInterval);
+    // Call the `displayMessage()` function
+    displayMessage();
+  }
+}, 1000);
 
 timer();
 
-// if start quiz button is clicked, then hide coding quiz challenge & show the first question
+//when the timer starts I am presented with a question
 function startQuiz() {
   var startQuiz = document.getElementById("intro");
   if (startQuiz.style.display === "none") {
@@ -51,7 +51,7 @@ function startQuiz() {
   } else {
     startQuiz.style.display = "none";
   }
-  
+
 }
 // startQuiz();
 
@@ -82,7 +82,7 @@ var question = [
   },
 
 ]
-// //question1 
+// //question1
 // question[0].title
 // question[0].choices[0] //strings
 // question[0].choices[1] //alerts
@@ -120,16 +120,25 @@ var question = [
 // Collapse
 
 
+//when I answer with the question correctly another question appears
+
+
+
+//when I answer with the question incorrectly, 15 seconds is deducted from the timer
 
 
 
 
+//when all the questions are answered then the game is over
 
 
 
 
+//when the timer reaches zero then the game is over
 
 
 
+
+//I can save my score with my initials
 
 
