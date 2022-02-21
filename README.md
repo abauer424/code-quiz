@@ -1,14 +1,16 @@
-# Challenge Your Skills - Code-Quiz
+# Challenge Your Skills
+
+### Code-Quiz
 
 ## Description 
 
-For the code quiz assignment, our task was to build from scratch a quiz using html, css and javascript. I started off by using emmet to create my html:5 layout. I built out the header section, the navigation section (using unordered lists) and the intro section. I then created a css style sheet and added styles to the document. Next I noticed an additional HTML file was needed, so I created high-score.html and added the emmet code. For javascript, I started off by creating pseudocode for each line of the acceptance criteria. 
+For the code quiz assignment, our task was to build from scratch a quiz using html, css and javascript. I started off by using emmet to create my html:5 layout. I built out the header section, the navigation section (using unordered lists) and the intro section. I then created a css style sheet and added styles to the document. Next I noticed an additional html file was needed, so I created a page called high-score. For javascript, I started off by creating pseudocode for each line of the acceptance criteria. 
 
-In this project, I really enjoyed doing the html and css portion, I noticed I was able to write the code without much reference. Using HTML, I made the "View high scores" text link to the second html document. I also was able to add links to the buttons on the high-score page to "go back" to the index html. 
+In this project, I really enjoyed doing the html and css portion, I noticed I was able to write the code without much reference. Using html, I made the "View High Scores" text link to the second html document. I also was able to add links to the buttons on the high-score page to "go back" to the index html. 
 
-For javascript, I had difficulty in accomplishing a few key functions. I wanted to submit something rather than nothing. How far I got with Javascript was, I was able to define the variables for the timer and start quiz button. I then created a timer function and made it so when the "start quiz" button is clicked with the addEventListener, the timer starts. I tried using clearInterval to stop the timer when it hit zero but was having issues making this code work. Next I tried to create syntax for the psuedocode "if start quiz button is clicked, then hide coding quiz challenge and start the first question". I was able to get the intro code block to hide, however had difficulty navgiating having the first question appear. 
+For javascript, I had difficulty in accomplishing a few key functions. I wanted to submit something rather than nothing for this assignment to show my progress. How far I got with Javascript was, I was able to define the variables for the timer and start quiz button. I then created a timer function and made it so when the "start quiz" button is clicked (using the addEventListener,)  the timer starts. I tried using clearInterval to stop the timer when it hit zero but was having issues making this code work. Next I tried to create syntax for the psuedocode "if start quiz button is clicked, then hide coding quiz challenge and start the first question". I was able to get the intro code block to hide, however had difficulty navgiating having the first question appear. I also laid out the questions in the javascript file including title, choices and solution. I plan to revisit this.
 
-I used several references to try to complete this assignment. W3Schools.com was very helpful during this project, I also used askBCS and attended tutoring hours on saturday. I wanted to meet the submission deadline and submit something and come back and revisit it later as I fear of falling behind. I enjoyed how far I got in this challenge and look forward to revisiting. 
+I used several references to try to complete this assignment. W3Schools.com was a very helpful reference, I also used askBCS and attended tutoring hours on saturday. I wanted to meet the submission deadline and submit something and come back and revisit it later as I fear of falling behind. I enjoyed how far I got in this challenge and look forward to revisiting. 
 
 ## Table of Contents 
 
