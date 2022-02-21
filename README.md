@@ -1,4 +1,4 @@
-# code-quiz
+# Challenge Your Skills - Code-Quiz
 
 ## Description 
 
@@ -26,11 +26,11 @@ To install the project, you need to git pull the following files from <a href ="
 ## Usage 
 
 1) Upon page load, you will see the image below is how the page should appear. You will see the header introduction "Challenge Your Skills!" complimented by a paragraph that gives an introduction to the quiz. You will also notice in the navigation two sections: "View High Scores" and "Time:".
-<img src="https://github.com/abauer424/code-quiz/blob/main/Assets/images/image1.png" alt="image of generate password button"/>
+<img src="https://github.com/abauer424/code-quiz/blob/main/assets/images/image1.png" alt="image of code quiz home page"/>
 2) When the "View High Scores" text is clicked it will take you to the page below. Here is where the user can either go back or clear high scores. This was a section of the assignment I was unable to complete on time and plan to revisit.
-<img src="https://github.com/abauer424/code-quiz/blob/main/Assets/images/image2.png" alt="click ok if you want special characters"/>
+<img src="https://github.com/abauer424/code-quiz/blob/main/assets/images/image2.png" alt="image of view high scores page"/>
 3) When the user clicks "go back" from the previous page, it will lead them back to the main index page. If the user hovers over the "start quiz" button, the button will turn green and if the user clicks the button the timer in the right hand corner will start. I had difficulty executing how to stop the timer, I noticed it goes into the negatives. 
-<img src="https://github.com/abauer424/code-quiz/blob/main/Assets/images/image3.png" alt="end result of generated password"/>
+<img src="https://github.com/abauer424/code-quiz/blob/main/assets/images/image3.png" alt="image of code quiz home page when start quiz button is clicked"/>
 
 
 ## Credits
