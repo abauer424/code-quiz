@@ -4,26 +4,23 @@ var startQuiz = document.querySelector('.start');
 
 
 //timer function
-function timer() {
-    //if 'start quiz' button is clicked then the timer starts
-  document.addEventListener("click", startQuiz);
-
-  $(".start").click(function () {
-    var timeLeft = 75;
-    setInterval(function () {
-      counter--;
-      if (counter >= 0) {
-        span = dcument.getElementById("time");
-        span.innherHTML - timeLeft;
+startQuiz.addEventListener("click", function () {
+  var timeLeft = 75;
+  setInterval(function () {
+    timeLeft--;
+    timerEl.textContent = timeLeft;
+      if (timeLeft >= 0) {
+        span = document.getElementById("time");
+        span.innerHTML - timeLeft;
       }
       if (timeLeft === 0) {
-        clearInterval(timer);
+        clearInterval();
       }
     }, 1000);
   });
 
   //setInterval method to call function to be executed every 1000 miliseconds
-  var timeInterval = setInterval(function () {
+  var timeInterval = setInterval (function () {
     // As long as the `timeLeft` is greater than 1
     if (timeLeft > 1) {
       // Set the `textContent` of `timerEl` to show the remaining seconds
@@ -44,12 +41,7 @@ function timer() {
     }
   }, 1000);
 
- 
-
-}
-// timer();
-
-
+timer();
 
 // if start quiz button is clicked, then hide coding quiz challenge & show the first question
 function startQuiz() {
@@ -61,7 +53,8 @@ function startQuiz() {
   }
   
 }
-startQuiz();
+// startQuiz();
+
 
 //questions
 var question = [
@@ -89,44 +82,42 @@ var question = [
   },
 
 ]
-//question1 
-question[0].title
-question[0].choices[0] //strings
-question[0].choices[1] //alerts
-question[0].choices[2] //numbers
-question[0].choices[3] //boolean
-question[0].solution
-Collapse
+// //question1 
+// question[0].title
+// question[0].choices[0] //strings
+// question[0].choices[1] //alerts
+// question[0].choices[2] //numbers
+// question[0].choices[3] //boolean
+// question[0].solution
+// Collapse
 
-//question2
-question[1].title
-question[1].choices[0] //break
-question[1].choices[1] //array
-question[1].choices[2] //null
-question[1].choices[3] //all the above
-question[1].solution
-Collapse
+// //question2
+// question[1].title
+// question[1].choices[0] //break
+// question[1].choices[1] //array
+// question[1].choices[2] //null
+// question[1].choices[3] //all the above
+// question[1].solution
+// Collapse
 
-//question3
-question[2].title
-question[2].choices[0] //decrement 
-question[2].choices[1] //for loop
-question[2].choices[2] //increment
-question[2].choices[3] //condition
-question[2].solution
-Collapse
-
-
-//question4
-question[3].title
-question[3].choices[0] //null 
-question[3].choices[1] //bigInt
-question[3].choices[2] //string
-question[3].choices[3] //all the above
-question[3].solution
-Collapse
+// //question3
+// question[2].title
+// question[2].choices[0] //decrement 
+// question[2].choices[1] //for loop
+// question[2].choices[2] //increment
+// question[2].choices[3] //condition
+// question[2].solution
+// Collapse
 
 
+// //question4
+// question[3].title
+// question[3].choices[0] //null 
+// question[3].choices[1] //bigInt
+// question[3].choices[2] //string
+// question[3].choices[3] //all the above
+// question[3].solution
+// Collapse
 
 
 
@@ -139,14 +130,6 @@ Collapse
 
 
 
-
-//    const button = document.querySelector('button');
-
-//    button.addEventListener('click', event => {
-//      button.textContent = `Click count: ${event.detail}`;
-//    });
-
-//when start quiz button is clicked then the timer starts
 
 
 
