@@ -4,7 +4,7 @@
 
 ## Description 
 
-For the code quiz assignment, our task was to build, from scratch, a quiz using html, css and javascript. I started off by creating my folder structure with the assets within these folders. I used emmet to create my html:5 layout. I then created a css style sheet and added styles to the document. Next I noticed an additional html file was needed, so I created a page called high-score. For javascript, I started off by creating pseudocode for each line of the acceptance criteria. 
+For the code quiz assignment, our task was to build, from scratch, a quiz using html, css and javascript. I started off by creating the repository folder structure with the assets within these folders. I then opened my index.html file and used emmet to create my html:5 layout. Next was creating the css style sheet and adding styles to the document. I noticed an additional html file was needed, so I created a page called high-score. For javascript, I started off by creating pseudocode for each line of the acceptance criteria. 
 
 In this project, I really enjoyed doing the html and css portion, I noticed I was able to write the code without much reference. Using html, I made the "View High Scores" text link to the second html document. I also was able to add links to the buttons on the high-score page to "go back" to the index html. 
 
